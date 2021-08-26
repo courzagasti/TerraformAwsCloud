@@ -1,6 +1,6 @@
 # Require TF version to most recent
 terraform {
-  required_version = ">=0.13, <0.14"
+  required_version = "~> 1.0.5"
 }
 
 # Download any stable version in AWS provider of 2.19.0 or higher in 2.19 train
